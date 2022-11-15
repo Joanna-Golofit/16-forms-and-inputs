@@ -41,7 +41,7 @@ const SimpleInput = (props) => {
 
   return (
     <form onSubmit={formSubmissionHandler}>
-      <div className={nameInputClasses} >
+      <div className={nameInputClasses}>
         <label htmlFor='name'>Your Name</label>
         <input
           value={enteredName}
